@@ -7,9 +7,11 @@ public class Prizes {
         // code
         Observer firstSubscriber = new Subscribers("First Subscriber");
         Observer secondSubscriber = new Subscribers("Second Subscriber");
+        Observer thirdObserver = new Subscribers("Third Subscriber");
 
         olimpiada.addObserver(firstSubscriber);
         olimpiada.addObserver(secondSubscriber);
+        olimpiada.addObserver(thirdObserver);
 
         olimpiada.addPrize("Third Member", 3);
 
